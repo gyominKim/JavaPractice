@@ -13,8 +13,8 @@ public class Method1Ref {
         System.out.println("결과 2 출력 : " + sum2);
 
     }
-//add 메서드
-    public static int add(int a, int b) {
+    //add 메서드
+    public static int  add(int a, int b) {
         System.out.println(a + " + " + b + " 연산을 수행하세요 ");
         int sum = a + b;
         return sum;
