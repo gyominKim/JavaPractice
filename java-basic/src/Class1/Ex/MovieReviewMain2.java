@@ -14,12 +14,13 @@ public class MovieReviewMain2 {
         AboutTime.review = "인생 시간 영화";
         movieReviews[1] = AboutTime;
 
-
         for (MovieReview movieReview : movieReviews) {
-            System.out.println("영화제목 : " + movieReview.title + ", 영화 리뷰 : " + movieReview.review);
+            System.out.println("영화제목 : " + movieReview.title + ", 리뷰 : " + movieReview.review);
         }
-      /*  for (MovieReview movieReview : movieReviews) {
-            System.out.println("영화제목 : " + movieReview.title + ", 리뷰 :" + movieReview.review);*/
+
+       /* for (int i = 0; i < movieReviews.length; i++) {
+            System.out.println("영화제목 : " + movieReviews[i].title + ", 리뷰 : " + movieReviews[i].review);
+        }*/
     }
 }
 
