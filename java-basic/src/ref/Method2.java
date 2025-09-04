@@ -6,7 +6,6 @@ public class Method2 {
         System.out.println("student1 = " + student1);
         Student student2 = createStudent("힉셍2",16,80);
         System.out.println("student2 = " + student2);
-
         printStudent(student1);
         printStudent(student2);
     }
@@ -21,6 +20,6 @@ public class Method2 {
     }
 
     static void printStudent(Student student) {
-        System.out.println("이름 : " + student.name + " 나이 : " +student.age + " 성적 : " + student.grade);
+        System.out.println("이름:" +student.name + " 나이: "+student.age + " 성적: "+student.grade);
     }
 }

@@ -1,6 +1,6 @@
 package ref;
 
-public class MethodChagne2 {
+public class MethodChange2 {
     public static void main(String[] args) {
         Data dataA = new Data();
         dataA.value = 10;
