@@ -4,19 +4,17 @@ public class Rectangle {
     int width;
     int height;
 
-
-    //넓이 구하는 함수
-    int calculateArea() {
+    int calculateArea(int width, int height) {
         return width * height;
     }
 
-    //둘레길이 구하는 함수
-    int calculatePerimeter() {
+    int calculatePerimeter(int width, int height) {
         return 2 * (width + height);
     }
 
-    //정사각형 여부
-    boolean isSquare() {
+    boolean isSquare(int width, int height) {
         return width == height;
     }
+
+
 }
