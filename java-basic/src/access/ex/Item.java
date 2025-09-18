@@ -1,7 +1,6 @@
 package access.ex;
 
 public class Item {
-
     private String name;
     private int price;
     private int quantity;
@@ -10,6 +9,7 @@ public class Item {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
+
     }
 
     public String getName() {
@@ -19,7 +19,4 @@ public class Item {
     public int getTotalPrice() {
         return price * quantity;
     }
-
-
-
 }
