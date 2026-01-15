@@ -22,5 +22,6 @@ public class FinalFieldMain {
         System.out.println("상수");
         System.out.println(FieldInit.CONST_VALUE);
 
+
     }
 }
