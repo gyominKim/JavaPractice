@@ -11,8 +11,8 @@ public class Movie extends Item{
     }
 
     @Override
-     void print() {
+    public void print() {
         super.print();
-        System.out.println("- 감독 : " + director + ", 배우 : " + actor);
+        System.out.println("-감독 : " + director + ", 배우 : " + actor);
     }
 }

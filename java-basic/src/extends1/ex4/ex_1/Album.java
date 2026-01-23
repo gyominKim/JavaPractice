@@ -1,16 +1,18 @@
 package extends1.ex4.ex_1;
 
-public class Album extends Item {
-    private String artist;
+public class Album extends Item{
 
-    Album(String name, int price, String artist) {
+    public String artiest;
+
+
+    public Album(String name, int price, String artiest) {
         super(name, price);
-        this.artist = artist;
+        this.artiest = artiest;
     }
 
     @Override
-    void print() {
+    public void print() {
         super.print();
-        System.out.println("- 아티스트 : " + artist);
+        System.out.println("-아티스트 : " + artiest );
     }
 }

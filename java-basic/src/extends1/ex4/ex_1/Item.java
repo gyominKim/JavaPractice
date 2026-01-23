@@ -16,7 +16,7 @@ public class Item {
         return price;
     }
 
-    void print() {
+    public void print() {
         System.out.println("이름 : " + name + ", 가격 : " + price);
         return;
     }

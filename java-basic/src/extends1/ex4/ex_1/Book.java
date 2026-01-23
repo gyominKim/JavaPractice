@@ -1,6 +1,7 @@
 package extends1.ex4.ex_1;
 
 public class Book extends Item{
+
     private String author;
     private String isbn;
 
@@ -12,9 +13,12 @@ public class Book extends Item{
 
     }
 
+
+
     @Override
-    void print() {
+    public void print() {
         super.print();
         System.out.println("- 저자 : " + author + ", isbn : " + isbn);
+
     }
 }
